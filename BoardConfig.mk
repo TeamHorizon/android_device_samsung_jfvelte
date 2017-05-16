@@ -81,6 +81,9 @@ BOARD_CHARGING_CMDLINE_NAME := "androidboot.bootchg"
 BOARD_CHARGING_CMDLINE_VALUE := "true"
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # CMHW
 BOARD_HARDWARE_CLASS += $(COMMON_PATH)/cmhw
 
