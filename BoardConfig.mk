@@ -46,7 +46,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 BOARD_KERNEL_PAGESIZE := 2048
 TARGET_KERNEL_CONFIG := lineageos_jfve_defconfig
 LZMA_RAMDISK_TARGETS := recovery
-TARGET_KERNEL_SOURCE := kernel/samsung/jf
+TARGET_KERNEL_SOURCE := kernel/samsung/jfvelte-dev/jf
 
 # Audio
 BOARD_HAVE_SAMSUNG_CSDCLIENT := true
