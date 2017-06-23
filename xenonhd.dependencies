@@ -11,7 +11,7 @@
   },
   {
     "repository": "jfvelte-dev/android_kernel_samsung_jf",
-    "target_path": "kernel/samsung/jf",
+    "target_path": "kernel/samsung/jfvelte-dev/jf",
     "branch": "cm-14.1"    
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "repository": "jfvelte-dev/proprietary_vendor_samsung",
-    "target_path": "vendor/samsung",
+    "target_path": "vendor/samsung/jfvelte-dev",
     "branch": "cm-14.1"  
   }
 ]
