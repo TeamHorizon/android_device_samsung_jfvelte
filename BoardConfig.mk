@@ -168,4 +168,4 @@ WIFI_DRIVER_FW_PATH_STA          := "sta"
 WIFI_DRIVER_FW_PATH_AP           := "ap"
 
 # inherit from the proprietary version
--include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
+-include vendor/samsung/jfvelte-dev/jf-gsm-common/BoardConfigVendor.mk
